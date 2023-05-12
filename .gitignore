@@ -1,0 +1,53 @@
+### ignore all WordPress folders ###
+wp-admin
+wp-includes
+wp-content/themes/*
+wp-content/plugins/*
+wp-content/uploads
+wp-content/cache
+wp-content/index.php
+
+### ignore all files in root ###
+/*.*
+
+### npm e composer ###
+node_modules
+.cache
+/vendor
+wp-content/themes/personal-bootstrap-theme/vendor/
+wp-content/themes/personal-bootstrap-theme/dist/
+
+### ignore log files and databases ###
+.devilbox
+.phpintel
+.htaccess
+.DS_Store
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tgz
+*.gz
+*.tar
+*.tar.gz
+
+### files to keep ###
+!.gitignore
+!.gitlab-ci.yml
+!.github
+!README.md
+!composer.json
+!composer.lock
+!/runWPbackup.php
+!wp-content/languages/*
+# Theme
+!wp-content/themes/personal-bootstrap-theme
+# Plugins
+!/wp-content/plugins/delightful-downloads
+!/wp-content/plugins/elementor-pro
+!/wp-content/plugins/jet-blocks
+!/wp-content/plugins/jet-parallax
+!/wp-content/plugins/wp-client-logo-carousel
+!/wp-content/plugins/ocean-sticky-header
+!/wp-content/plugins/nextend-smart-slider3-pro-instalador-direto
+!wp-content/plugins/elementor
