@@ -1,0 +1,9 @@
+[08-May-2023 23:08:55 UTC] PHP Parse error:  syntax error, unexpected identifier "do_shortcode" in /home2/makersolucoes/andre.makersolucoes.com.br/wp-content/themes/personal-bootstrap-theme/header.php on line 45
+[08-May-2023 23:09:15 UTC] PHP Parse error:  syntax error, unexpected identifier "do_shortcode", expecting "," or ";" in /home2/makersolucoes/andre.makersolucoes.com.br/wp-content/themes/personal-bootstrap-theme/header.php on line 45
+[10-May-2023 16:20:13 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Post could not be converted to string in /home2/makersolucoes/andre.makersolucoes.com.br/wp-content/themes/personal-bootstrap-theme/index.php:461
+Stack trace:
+#0 /home2/makersolucoes/andre.makersolucoes.com.br/wp-includes/template-loader.php(106): include()
+#1 /home2/makersolucoes/andre.makersolucoes.com.br/wp-blog-header.php(19): require_once('/home2/makersol...')
+#2 /home2/makersolucoes/andre.makersolucoes.com.br/index.php(17): require('/home2/makersol...')
+#3 {main}
+  thrown in /home2/makersolucoes/andre.makersolucoes.com.br/wp-content/themes/personal-bootstrap-theme/index.php on line 461

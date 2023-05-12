@@ -1,0 +1,2 @@
+[08-May-2023 20:31:34 UTC] PHP Warning:  Attempt to read property "title" on null in /home2/makersolucoes/andre.makersolucoes.com.br/wp-includes/class-wp-customize-widgets.php on line 905
+[08-May-2023 20:40:47 UTC] PHP Warning:  Attempt to read property "title" on null in /home2/makersolucoes/andre.makersolucoes.com.br/wp-includes/class-wp-customize-widgets.php on line 905

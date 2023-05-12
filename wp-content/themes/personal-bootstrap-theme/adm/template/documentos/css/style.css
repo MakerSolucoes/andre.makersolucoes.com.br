@@ -1,0 +1,19 @@
+* {
+  transition: 0.5s;
+}
+
+.modalStepOne img, .modalStepTwo img, .modalStepThree img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+#search-content {
+  position: absolute;
+  top: 8.7rem;
+  z-index: 1000 !important;
+}
+#search-content a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
