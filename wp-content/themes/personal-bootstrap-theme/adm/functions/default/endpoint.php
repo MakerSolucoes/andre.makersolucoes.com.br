@@ -22,6 +22,7 @@ function get_clientes_callback(){
             'thumbnail' => $thumbnail,
             'url' => get_field('url', $id),
             'status' => get_field('status', $id),
+            'telefones' => get_field('telefones', $id)
         );
     }
     return $clientes_array;
@@ -31,6 +32,10 @@ function prefix_register_custom_route() {
     register_rest_route('wp/v2', '/clientes', array(
         'methods' => 'GET',
         'callback' => 'get_clientes_callback',
+    ));
+    register_rest_route('wp/v2', '/options', array(
+        'methods' => 'GET',
+        'callback' => 'get_options_callback',
     ));
 }
 add_action('rest_api_init', 'prefix_register_custom_route');
