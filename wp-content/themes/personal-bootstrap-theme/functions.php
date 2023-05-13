@@ -27,7 +27,10 @@ function mysql_set_sql_mode_traditional()
 // Default
 $adm = '/adm/functions/default/';
 get_template_part($adm . 'get');
+get_template_part($adm . 'post-types');
+get_template_part($adm . 'endpoint');
 // get_template_part($adm . 'ajax');
+
 get_template_part($adm . 'page');
 get_template_part($adm . 'styles');
 get_template_part($adm . 'scripts');
